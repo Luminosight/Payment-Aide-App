@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Payment Aide",
+    "slug": "payment-aide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/official_icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "payment-aide",
+    "splash": {
+      "image": "./assets/official_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#15202B"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/official_icon.png",
+        "backgroundColor": "#15202B"
+      },
+      "package": "com.nygel.paymentaide"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e2404025-cea5-4da8-81e0-9055438c5fb7"
+      }
+    }
+  }
+}
